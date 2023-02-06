@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IND Food Zone</title>
+
+    <!--------- IND Food Zone ------------>
+    <link rel="shortcut icon" type="img" href="data:image/jpeg;base64,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">
+
+    <!--------- CSS file ------------>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ---------------------Nav bar-------------------- -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home-area">Home</a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <h1 class="logo">IND Food Zone</h1>
+
+        </div> 
+    </nav>
+    <!-- ----------------------Nav bar ends------------------- -->
+
+    <!-- --------------- Home section starts --------------- -->
+    <section class="home-area" id="home-area">
+        <div class="home-container">
+            <p class="moto">You’ll wonder how you ever lived without us.</p>
+            <br>
+            <pre class="line2">Curry me home.. </pre>
+            <br>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+
+        </div>
+       
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <h2>Indian cuisine.
+                 <p>Indian cuisine has shaped the history of international relations; the spice trade between India and Europe was the primary catalyst for Europe's Age of Discovery. Spices were bought from India and traded around Europe and Asia. Indian cuisine has influenced other cuisines across the world, especially those from Europe (especially Britain), the Middle East, Southern African, East Africa, Southeast Asia, North America, Mauritius, Fiji, Oceania, and the Caribbean.</p>
+                </h2>
+            </div>
+            <div class="about-img">
+                <img src="./img/Thali.jpg" alt="About Us">
+            </div>
+
+        </div>
+    </section>
+    <!-- --------------- Home section ends --------------- -->
+
+    <!-- -------------Food section starts -------------- -->
+    <section id="food">
+        <h2>Types of food </h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src="img/fruits.jpg" alt="fruits image">
+                    <div class="img-content">
+                        <h3>Fruits</h3><br>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="img/vege.jpg" alt="vegetables image">
+                    <div class="img-content">
+                        <h3>Vegetables</h3><br>
+                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="food-type grains">
+                <div class="img-container">
+                    <img src="img/grain.jpg" alt="grains image">
+                    <div class="img-content">
+                        <h3>Grains</h3><br>
+                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+    </section>
+    <!-- -------------Food section Ends -------------- -->
+   
+    <!-- -------------Menu section Starts-------------- -->
+   <section id="food-menu">
+    <h2 class="food-menu-heading">Food Menu</h2>
+    <div class="food-menu-container container">
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Aloo_gobi.jpg/120px-Aloo_gobi.jpg" alt="biryani">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Aloo gobi</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Aloo_gobi" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Aloo_Tikki_served_with_chutneys.jpg/120px-Aloo_Tikki_served_with_chutneys.jpg" alt="Burger">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Aloo tikki</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Aloo_tikki" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/India_food.jpg/120px-India_food.jpg" alt="coffee">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Biryani</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Biryani" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chapatiroll.jpg/120px-Chapatiroll.jpg" alt="dosa">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Chapati</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Chapati" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Dal_Makhani.jpg/120px-Dal_Makhani.jpg" alt="Garlic Bread">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Dal  </h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Dal" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="img/idli.jpg" alt="Idli">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Idli</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Idli" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Phirni.jpg/120px-Phirni.jpg" alt="Pav bhaji">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">phirni   </h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Dal" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gajjar_ka_halwa_%28carrot_halwa%29.JPG/120px-Gajjar_ka_halwa_%28carrot_halwa%29.JPG" alt="pizza">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Gajar ka halwa</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Samosachutney.jpg/280px-Samosachutney.jpg" alt="samosa">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Samosa</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Samosa" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Aloo_gobi_matar_ki_sabji.jpg/120px-Aloo_gobi_matar_ki_sabji.jpg" alt="sandwich">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Gobhi matar</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://www.easycookingwithmolly.com/2020/01/gobi-matar-recipe/#:~:text=Gobi%20Matar%20Recipe%20is%20a,is%20a%20vegan%2C%20glutenfree%20recipe." class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/JalebiIndia.jpg/120px-JalebiIndia.jpg" alt="Thali">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Imarti   </h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sponge_dosa%2C_media_wada%2C_sambar%2C_chutney_and_potato_bhaji.jpg/120px-Sponge_dosa%2C_media_wada%2C_sambar%2C_chutney_and_potato_bhaji.jpg" alt="chole bhature">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Sponge dosa</h2>
+                <p class="food-price">Price : &#8377; 200</p>
+                <a href="https://en.wikipedia.org/wiki/Dosa_(food)" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+   </section>
+    <!-- -------------Menu section Ends -------------- -->
+
+    <!-- -------------Testimonial Section Starts -------------- -->
+    <section id="testimonials">
+        <h2 class="testimonials-title">Customers Review's</h2>
+        <div class="testimonial-container container">
+            <!-- ------------------------------------- -->
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-img">
+                            <img src="img/customer.jpg" alt="customer">
+                            <p class="customer-name">Imran</p>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                    
+                    </div>
+                    <p class="testimonial-text">Nice food,loved the place❤️</p>
+                </div>
+                <!-- ------------------------------------- -->
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-img">
+                            <img src="img/customer.jpg" alt="customer">
+                            <p class="customer-name">Ram</p>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    
+                    </div>
+                    <p class="testimonial-text">Food was really good🤩</p>
+                </div>
+                <!-- ------------------------------------- -->
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-img">
+                            <img src="img/customer.jpg" alt="customer">
+                            <p class="customer-name">Geetha</p>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                    
+                    </div>
+                    <p class="testimonial-text"> Nice place to have good food👍🏻</p>
+                </div>
+        </div>
+
+    </section>
+    <!-- -------------Testimonial Section Ends -------------- -->
+
+
+    <!-- -------------Contact Us Section Starts -------------- -->
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="img/delivery-boy.png" alt="delivery-boy">
+            </div>
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text"  id="" placeholder="Name">
+                <input type="email"  id="" placeholder="your@email.com">
+                <textarea id="textarea" cols="30" rows="6" placeholder="Type your message here ..."></textarea>
+                <a href="#" id="submit" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <!-- -------------Contact Us Section Ends -------------- -->
+
+    <!-- -------------Footer Section Starts -------------- -->
+
+    <footer id="footer">
+        <h2>IND food Zone &copy; Created by MR.DHARAN</h2>
+    </footer>
+    <!-- -------------Footer Section Ends -------------- -->
+
+</body>
+</html>
